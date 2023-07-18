@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  :root {
+    /* fonts */
+    --font-farro: Farro;
+    --font-fira-sans: "Fira Sans";
+    --font-habibi: Habibi;
+    --font-goblin-one: "Goblin One";
+  
+    /* font sizes */
+    --font-size-13xl: 32px;
+    --font-size-mini: 15px;
+    --font-size-lg: 18px;
+    --font-size-smi: 13px;
+    --font-size-xs: 12px;
+    --font-size-11xl: 30px;
+    --font-size-base: 16px;
+    --font-size-5xl: 24px;
+    --font-size-6xl: 25px;
+    --font-size-4xl: 23px;
+    --font-size-41xl: 60px;
+    --font-size-29xl: 48px;
+  
+    /* Colors */
+    --color-gray-100: #0c1117;
+    --color-gray-200: #0a0f14;
+    --color-slategray-100: #536a82;
+    --color-white: #fff;
+    --color-silver: #b6b6b6;
+    --color-mediumblue: #003adb;
+    --color-darkslategray: #2e2e2e;
+    --color-black: #000;
+    --color-snow-100: #fdfbfb;
+    --color-lightskyblue: #8fc2ff;
+    --color-mediumslateblue: #2b61f7;
+    --color-lightsteelblue: #abc4e3;
+  
+    /* Paddings */
+    --padding-3xs-8: 9.8px;
+    --padding-10xs: 3px;
+    --padding-5xs: 8px;
+    --padding-5xl: 24px;
+  
+    /* border radiuses */
+    --br-9xs: 4px;
+    --br-11xl: 30px;
+    --br-40xl: 59px;
+  }
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px) {
+.navbar{
+  flex-direction: column;
+}
+.membs{
+  flex-direction: row;
+}
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+.navbar{
+  flex-direction: column;
+}
+.membs{
+  flex-direction: row;
+}
+}
+
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+.navbar{
+  flex-direction: column;
+  .membs{
+    flex-direction: column;
+  }
+}
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+  .navbar{
+    flex-direction: column;
+    .membs{
+      flex-direction: column;
+    }
+  }
+}
+
+
+    
